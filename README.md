@@ -14,14 +14,16 @@ Summary: mQTL provides a complete QTL analysis pipeline for metabolomic data.  D
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-mqtl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-mqtl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-mqtl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-mqtl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-mqtl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-mqtl-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-mqtl-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-mqtl-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-mqtl-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-mqtl-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-mqtl-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-mqtl-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-mqtl/badges/version.svg)](https://anaconda.org/conda-forge/r-mqtl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-mqtl/badges/downloads.svg)](https://anaconda.org/conda-forge/r-mqtl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--mqtl-green.svg)](https://anaconda.org/conda-forge/r-mqtl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-mqtl.svg)](https://anaconda.org/conda-forge/r-mqtl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-mqtl.svg)](https://anaconda.org/conda-forge/r-mqtl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-mqtl.svg)](https://anaconda.org/conda-forge/r-mqtl) |
 
 Installing r-mqtl
 =================
