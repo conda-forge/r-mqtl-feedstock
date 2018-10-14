@@ -12,11 +12,10 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/mQTL_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/mQTL/mQTL_{{ version }}.tar.gz
-
-  sha256: 7a36044224285354a58686dbf7ce24ee8bd8a543a56821d7b8152c90e7ee004d
+  sha256: 21193861fbf2d280f2b7284ba87d68adce515e35fbe4e71821439fa8b14d1b72
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win32]
 
   rpaths:
@@ -55,6 +54,7 @@ about:
   license_family: GPL
 extra:
    recipe-maintainers:
+    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
