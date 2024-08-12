@@ -1,7 +1,6 @@
 {% set version = "1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mqtl
@@ -15,17 +14,17 @@ source:
   sha256: 21193861fbf2d280f2b7284ba87d68adce515e35fbe4e71821439fa8b14d1b72
 
 build:
-  merge_build_host: true  # [win]
-  number: 1005
+  number: 1006
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
-    - posix                # [win]
     - {{ compiler('c') }}    # [not win]
+    - {{ stdlib("c") }}      # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
   host:
     - r-base
     - r-mass
